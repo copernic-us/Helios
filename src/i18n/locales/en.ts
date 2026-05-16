@@ -1,7 +1,7 @@
 import type { Translations } from '../index';
 
 /*
- * English, reference locale.
+ * Polish, reference locale.
  *
  * The Translations type (defined in ../index.ts) is derived from this
  * object's runtime shape. Because we annotate `en` with that very
@@ -12,18 +12,18 @@ import type { Translations } from '../index';
  */
 export const en: Translations = {
     cardName:        'HELIOS',
-    cardDescription: 'Real-time solar energy and cloud coverage visualization',
+    cardDescription: 'Wizualizacja w czasie rzeczywistym położenia słońca i pokrycia nieba',
 
     placeholder:
     {
-        subtitle: 'Solar exposure & cloud coverage'
+        subtitle: 'Ekspozycja słoneczna i pokrycie nieba'
     },
 
     detail:
     {
-        title:    'Detailed view',
-        subtitle: 'Detailed dashboard coming soon.',
-        exitHint: 'Tap anywhere to exit',
+        title:    'Widok szczegółowy',
+        subtitle: 'Widok szczegółowy, dostępny w nadchodzących wersjach.',
+        exitHint: 'Naciśnij gdziekolwiek, aby wyjść',
     
         todayLabel:         'Dzisiaj',
         todayProduced:      'wyprodukowano',
